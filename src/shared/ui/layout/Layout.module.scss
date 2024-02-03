@@ -1,11 +1,27 @@
-.layoutWrapper{
+.layoutWrapper {
+  display: flex;
+  flex-direction: column;
 
   .layoutTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
+    background-color: crimson;
+
+    height: 5vh;
+
+    padding: 0 20px;
+
+    .userInfo{
+      display: flex;
+      flex-direction: column;
+
+
+    }
   }
 
-  .layoutLeft{
-
+  .layoutLeft {
   }
 }
-

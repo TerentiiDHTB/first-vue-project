@@ -1,0 +1,19 @@
+.layoutWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.layoutWrapper .layoutTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: crimson;
+  height: 5vh;
+  padding: 0 20px;
+}
+.layoutWrapper .layoutTop .userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=Layout.module.css.map */
