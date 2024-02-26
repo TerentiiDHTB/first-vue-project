@@ -1,0 +1,32 @@
+{
+  "taska": "Выберите товары, правильно сопоставленные с этим товаром?",
+  "original_item": "Исходный товар: Телевизор ЖК Philips 32PHS6808/60 32\"/1366x768 Пикс",
+  "original_item_price": "Цена: 19 999",
+  "original_item_picture": "ссылка",
+  "items_for_comparison": {
+    "id 123": {
+      "item_name": "): 55\" (139 см) Телевизор LED Philips 55PUS8108/60 серый",
+      "item_link": "https://vk.com",
+      "item_price":  "10200 rub",
+      "item_picture": "link"
+    },
+    "id 1234": {
+      "item_name": "): 55\" (139 см) Телевизор LED Philips 55PUS8108/60 серый",
+      "item_link": "https://vk.com",
+      "item_price":  "10200 rub",
+      "item_picture": "link"
+    },
+    "id 345": {
+      "item_name": "): 55\" (139 см) Телевизор LED Philips 55PUS8108/60 серый",
+      "item_link": "https://vk.com",
+      "item_price":  "10200 rub",
+      "item_picture": "link"
+    },
+    "id 567": {
+      "item_name": "): 55\" (139 см) Телевизор LED Philips 55PUS8108/60 серый",
+      "item_link": "https://vk.com",
+      "item_price":  "10200 rub",
+      "item_picture": "link"
+    }
+  }
+}

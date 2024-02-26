@@ -1,5 +1,8 @@
 <template>
   <div :class="styles.officeWrapper">
+    <div :class="styles.filterWrapper">
+
+    </div>
     <DataView :value="products" paginator :layout="layout" :rows="6" :class="styles.size">
       <template #header>
         <div>
@@ -9,27 +12,27 @@
 
       <template #list="slotProps">
         <div :class="styles.listItemsWrapper">
-          <div v-for="product in slotProps.items" :key="product.name">
-            <div>
+          <template v-for="product in slotProps.items" :key="product.name">
+            <Card :class="styles.listItemWrapper">
               <span>{{ product.name }}</span>
               <span>{{ product.info1 }}</span>
               <span>{{ product.info2 }}</span>
               <span>{{ product.info3 }}</span>
-            </div>
-          </div>
+            </Card>
+          </template>
         </div>
       </template>
 
       <template #grid="slotProps">
         <div :class="styles.gridItemViewWrapper">
-          <div v-for="product in slotProps.items" :key="product.name">
+          <template v-for="product in slotProps.items" :key="product.name">
             <div :class="styles.gridItemWrapper">
               <span>{{ product.name }}</span>
               <span>{{ product.info1 }}</span>
               <span>{{ product.info2 }}</span>
               <span>{{ product.info3 }}</span>
             </div>
-          </div>
+          </template>
         </div>
       </template>
     </DataView>

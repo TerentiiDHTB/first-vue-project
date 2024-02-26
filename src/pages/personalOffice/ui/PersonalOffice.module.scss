@@ -1,6 +1,6 @@
 .officeWrapper{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
 
   margin:1vh;
   border-radius:4px;
@@ -12,7 +12,7 @@
   height: 90vh;
 
   .size{
-    max-width:100%;
+    width: 100%;
     height:90vh;
     max-height:100%;
 
@@ -22,26 +22,41 @@
   .listItemsWrapper{
     display: flex;
     flex-wrap: wrap;
+
+    .listItemWrapper{
+
+    }
   }
 
   .gridItemViewWrapper{
     width:100%;
-    height:90vh;
+    height:85vh;
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-around;
+    gap: 2vh;
 
     .gridItemWrapper{
-      width: 33vh;
+      width: 30%;
       height:33vh;
 
       border: 1px solid black;
 
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-around;
     }
+  }
+
+  .filterWrapper{
+    display: flex;
+    flex-direction:column;
+
+    width:21vw;
+    height:100%;
+
+    margin-right:auto;
+
+    border:1px solid black;
   }
 }

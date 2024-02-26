@@ -31,6 +31,5 @@ const handleClick = () => {
         <slot/>
     </div>
 
-
   </div>
 </template>

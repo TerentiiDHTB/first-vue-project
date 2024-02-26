@@ -20,6 +20,11 @@ const router = createRouter({
       path: '/personaloffice',
       name: 'personalOffice',
       component: () => import('@/pages/personalOffice/')
+    },
+    {
+      path: '/createproject',
+      name: 'createProject',
+      component: () => import("@/pages/createProject/")
     }
   ]
 })

@@ -10,7 +10,6 @@
     align-items: center;
 
     background-color: white;
-    border-bottom: 1px solid grey;
 
     height: 8vh;
 
@@ -28,9 +27,11 @@
   .pageBodyWrapper{
     display: flex;
     flex-direction: row;
+     max-height: 92vh;
 
     .layoutLeft {
-      width: 10vw;
+      width: 12vw;
+      min-width: 220px;
 
       display: flex;
       flex-direction: column;
